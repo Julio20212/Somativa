@@ -1,0 +1,23 @@
+package AVSomativa;
+
+import java.util.Scanner;
+
+public class Ativsomativa2 {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	
+	double area, h, b;
+	
+	System.out.print("Informe a altura do triângulo: ");
+	h = ler.nextDouble();
+	
+	System.out.print("Informe a base do triângulo: ");
+	b = ler.nextDouble();
+	
+	area = (b*h)/2;
+	
+	System.out.println("A área do triângulo é: "+ area);
+	}
+
+}
