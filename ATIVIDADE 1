@@ -2,29 +2,27 @@ package AVSomativa;
 
 import java.util.Scanner;
 
-public class Ativsomativa1 {
+public class Ativsomativa1 {// Nome da classe
 
-	public static void main(String[] args) {
-	Scanner ler = new Scanner(System.in);
+	public static void main(String[] args) {//Permite que o código seja executado de diversas formas
+	Scanner ler = new Scanner(System.in);//Pedindo para o Scanner lê e armazenar	
+	double a, b, soma, sub, mult, div; //Declarando variáveis do tipo real
 	
-	double a, b, soma, sub, mult, div;
-	
-	System.out.print("Informe o primeiro valor: ");
-	a = ler.nextDouble();
+	System.out.print("Informe o primeiro valor: ");//Usuário informa o valor 1
+	a = ler.nextDouble();//Será guardado na variável a
 			
-	System.out.print("Informe o segundo valor: ");		
-	b = ler.nextDouble();
+	System.out.print("Informe o segundo valor: ");//Usuário informa o valor 2		
+	b = ler.nextDouble();//Será guardado na variável b
 	
-	soma= a+b;
-	sub= a-b;
-	mult= a*b;
-	div= a/b;
+	soma= a+b;//Será somado o valor1 pelo valor 2
+	sub= a-b;//Será subtraido o valor1 pelo valor2
+	mult= a*b;//Será multiplicado o valor1 pelo valor2
+	div= a/b;//Será dividido o valor 1 pelo valor 2
 	
-	System.out.println("O resultado da soma é: " + soma);
-	System.out.println("O resultado da subtração é: " + sub );
-	System.out.println("O resultado da multiplicação é: " + mult);
-	System.out.println("O resultado da divisão é: " + div);
+	System.out.println("O resultado da soma é: " + soma);//Irá informa a soma dos dois valores
+	System.out.println("O resultado da subtração é: " + sub );//Irá informa a subtração dos dois valores
+	System.out.println("O resultado da multiplicação é: " + mult);//Irá informa a multiplicação do sois valores
+	System.out.println("O resultado da divisão é: " + div);//Irá informar a divisão dos dois valores
 	
 	}
-
 }
