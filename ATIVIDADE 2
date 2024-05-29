@@ -2,22 +2,21 @@ package AVSomativa;
 
 import java.util.Scanner;
 
-public class Ativsomativa2 {
+public class Ativsomativa2 {//Nome da classe
 
-	public static void main(String[] args) {
-	Scanner ler = new Scanner(System.in);
+	public static void main(String[] args) {//Permite que o código seja executado de diversas formas
+	Scanner ler = new Scanner(System.in);//Scanner lê e armazena
+	double area, h, b;//Declarando as variáveis
 	
-	double area, h, b;
+	System.out.print("Informe a altura do triângulo: ");//Usuário informa a altura
+	h = ler.nextDouble();//Será guardado na variável h
 	
-	System.out.print("Informe a altura do triângulo: ");
-	h = ler.nextDouble();
+	System.out.print("Informe a base do triângulo: ");//Usuário informa a base
+	b = ler.nextDouble();//Será guardado na variável b
 	
-	System.out.print("Informe a base do triângulo: ");
-	b = ler.nextDouble();
+	area = (b*h)/2;//Calculando a área do triângulo
 	
-	area = (b*h)/2;
-	
-	System.out.println("A área do triângulo é: "+ area);
+	System.out.println("A área do triângulo é: "+ area);//Informa o resultado da área
 	}
 
 }
