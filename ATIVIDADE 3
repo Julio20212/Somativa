@@ -2,39 +2,39 @@ package AVSomativa;
 
 import java.util.Scanner;
 
-public class Ativsomativa3 {
+public class Ativsomativa3 {//Nome da classe
 
-	public static void main(String[] args) {
-	Scanner ler = new Scanner(System.in);
-	int dia;
+	public static void main(String[] args) {//Permite que o código seja executado de diversas formas
+	Scanner ler = new Scanner(System.in);//Scanner lê e armazena
+	int dia;//Declarando a variável
 	
-	System.out.println("Informe o dia da semana: ");
-	dia = ler.nextInt();
+	System.out.println("Informe o dia da semana: ");//Usuário irá informar o dia da semana
+	dia = ler.nextInt();//Será guardado na variável dia
 	
-	switch (dia) {
-	case 1:
-		System.out.println("Domingo");
-		break; 
-	case 2: 
-		System.out.println("Segunda");
-		break;
-	case 3: 
-		System.out.println("Terça");
-		break;
-	case 4: 
-		System.out.println("Quarta");
-		break;
-	case 5: 
-		System.out.println("Quinta");
-		break;
-	case 6: 
-		System.out.println("Sexta");
-		break;
-	case 7: 
-		System.out.println("Sábado");
-		break;
-	default:
-		System.out.println("Dia inválido, informe-o novamente");
+	switch (dia) {//Estrutura de controle de fluxo
+	case 1://Caso usuário informe o número 1
+		System.out.println("Domingo");//Irá mostrar Domingo
+		break;//Fechar/Parar 
+	case 2://Caso o usuário informe o número 2
+		System.out.println("Segunda");//Irá mostra Segunda
+		break;//Fechar/Parar
+	case 3://Caso o usuário informe o número 3 
+		System.out.println("Terça");//Irá mostra Terça
+		break;//Fechar/Parar
+	case 4://Caso o usuário informar o número 4
+		System.out.println("Quarta");//Irá mostrar Quarta
+		break;//Fechar/Parar
+	case 5://Caso o usuário informar o número 5
+		System.out.println("Quinta");//Irá mostrar Quinta
+		break;//Fechar/Parar
+	case 6://Caso o usuário informar o número 6 
+		System.out.println("Sexta");//Irá mostrar Sexta
+		break;//Fechar/Parar
+	case 7://Caso o usuário informar o número 7 
+		System.out.println("Sábado");//Irá mostrar Sábado
+		break;//Fechar/Parar
+	default://Caso o usuário informe outra coisa
+		System.out.println("Dia inválido, informe-o novamente");//Irá mostrar Dia Inválido
 		}
 	}
 }
