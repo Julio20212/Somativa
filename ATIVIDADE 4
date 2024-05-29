@@ -1,0 +1,22 @@
+package AVSomativa;
+
+import java.util.Scanner;
+
+public class Ativsomativa4 {//Nome da classe
+
+	public static void main(String[] args) {//Permite que o código seja executado de diversas formas
+	Scanner ler = new Scanner(System.in);//Scanner lê e armazena
+	
+	int s[] = new int [15];
+	int numero = 0;//Declarando variável numero e igualando a 0
+	int soma = 0;//Declarando a variável soma e igualando a 0
+	
+	for (int i = 0; i < 15; i++) {//Estrutura de repetição até 15
+		System.out.print("Informe o número: " +i +" :");//Usuário irá informar 15 números
+		numero = ler.nextInt();//Será guardado na variável numero
+		soma = soma+numero;//Irá somar os números
+	}
+	System.out.println("A soma de todos os valores é: "+ soma);//Irá mostra o resultado 
+	}
+
+}
