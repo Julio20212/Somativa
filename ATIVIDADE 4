@@ -7,7 +7,7 @@ public class Ativsomativa4 {//Nome da classe
 	public static void main(String[] args) {//Permite que o código seja executado de diversas formas
 	Scanner ler = new Scanner(System.in);//Scanner lê e armazena
 	
-	int s[] = new int [15];
+	int s[] = new int [15];//Declarando a variável s para repetição
 	int numero = 0;//Declarando variável numero e igualando a 0
 	int soma = 0;//Declarando a variável soma e igualando a 0
 	
